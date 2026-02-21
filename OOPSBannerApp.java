@@ -1,12 +1,24 @@
-/**
- * OOPS Banner App - Use Case 1
- * Prints the literal text "OOPS" to the console.
- *
- * @author Student
- * @version 1.0
- */
+
 public class OOPSBannerApp {
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        String line1 = String.join("", "   ***   ", "    ***   ", " ******   ", "    *****");
+        String line2 = String.join("", " **   ** ", "  **   ** ", " **    ** ", "  **");
+        String line3 = String.join("", "**     **", " **     **", " **     **", " **");
+        String line4 = String.join("", "**     **", " **     **", " **     **", "   **");
+        String line5 = String.join("", "**     **", " **     **", " ******   ", "     ***");
+        String line6 = String.join("", "**     **", " **     **", " **       ", "        **");
+        String line7 = String.join("", "**     **", " **     **", " **       ", "        **");
+        String line8 = String.join("", " **   ** ", "  **   ** ", " **       ", "        **");
+        String line9 = String.join("", "   ***   ", "    ***   ", " **       ", "   *****");
+
+        System.out.println(line1);
+        System.out.println(line2);
+        System.out.println(line3);
+        System.out.println(line4);
+        System.out.println(line5);
+        System.out.println(line6);
+        System.out.println(line7);
+        System.out.println(line8);
+        System.out.println(line9);
     }
 }
